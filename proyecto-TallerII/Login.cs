@@ -39,12 +39,27 @@ namespace proyecto_TallerII
 
         private void botoncancelar_Click(object sender, EventArgs e)
         {
-
+            this.Close();
         }
 
         private void label3_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void botoningreso_Click(object sender, EventArgs e)
+        {
+            inicio form = new inicio();
+
+            form.Show();
+            this.Hide();
+
+            form.FormClosing += frm_closing;
+        }
+
+        private void frm_closing(object sender, FormClosingEventArgs e)
+        {
+            this.Show();
         }
     }
 }
