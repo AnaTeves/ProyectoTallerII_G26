@@ -88,6 +88,7 @@
             // 
             this.textBox2.Location = new System.Drawing.Point(298, 156);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.Size = new System.Drawing.Size(285, 26);
             this.textBox2.TabIndex = 4;
             // 
@@ -121,6 +122,7 @@
             this.botoningreso.TabIndex = 7;
             this.botoningreso.Text = "Ingresar";
             this.botoningreso.UseVisualStyleBackColor = false;
+            this.botoningreso.Click += new System.EventHandler(this.botoningreso_Click);
             // 
             // botoncancelar
             // 
@@ -161,7 +163,9 @@
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.iconPictureBox1)).EndInit();
             this.ResumeLayout(false);
