@@ -60,6 +60,8 @@ namespace proyecto_TallerII
         private void frm_closing(object sender, FormClosingEventArgs e)
         {
             this.Show();
+            txtdocumento.Text = "";
+            txtclave.Text = "";
         }
     }
 }
