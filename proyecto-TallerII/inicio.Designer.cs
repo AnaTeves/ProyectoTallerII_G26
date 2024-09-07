@@ -42,6 +42,7 @@
             // 
             // menu
             // 
+            this.menu.AutoSize = false;
             this.menu.BackColor = System.Drawing.Color.White;
             this.menu.Dock = System.Windows.Forms.DockStyle.Left;
             this.menu.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);

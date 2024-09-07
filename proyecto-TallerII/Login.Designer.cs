@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.iconPictureBox1 = new FontAwesome.Sharp.IconPictureBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtdocumento = new System.Windows.Forms.TextBox();
+            this.txtclave = new System.Windows.Forms.TextBox();
             this.campodni = new System.Windows.Forms.Label();
             this.campocontraseña = new System.Windows.Forms.Label();
             this.botoningreso = new System.Windows.Forms.Button();
@@ -77,20 +77,20 @@
             this.iconPictureBox1.TabStop = false;
             this.iconPictureBox1.Click += new System.EventHandler(this.iconPictureBox1_Click_2);
             // 
-            // textBox1
+            // txtdocumento
             // 
-            this.textBox1.Location = new System.Drawing.Point(298, 75);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(285, 26);
-            this.textBox1.TabIndex = 3;
+            this.txtdocumento.Location = new System.Drawing.Point(298, 75);
+            this.txtdocumento.Name = "txtdocumento";
+            this.txtdocumento.Size = new System.Drawing.Size(285, 26);
+            this.txtdocumento.TabIndex = 3;
             // 
-            // textBox2
+            // txtclave
             // 
-            this.textBox2.Location = new System.Drawing.Point(298, 156);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.PasswordChar = '*';
-            this.textBox2.Size = new System.Drawing.Size(285, 26);
-            this.textBox2.TabIndex = 4;
+            this.txtclave.Location = new System.Drawing.Point(298, 156);
+            this.txtclave.Name = "txtclave";
+            this.txtclave.PasswordChar = '*';
+            this.txtclave.Size = new System.Drawing.Size(285, 26);
+            this.txtclave.TabIndex = 4;
             // 
             // campodni
             // 
@@ -158,8 +158,8 @@
             this.Controls.Add(this.botoningreso);
             this.Controls.Add(this.campocontraseña);
             this.Controls.Add(this.campodni);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtclave);
+            this.Controls.Add(this.txtdocumento);
             this.Controls.Add(this.iconPictureBox1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -178,8 +178,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private FontAwesome.Sharp.IconPictureBox iconPictureBox1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtdocumento;
+        private System.Windows.Forms.TextBox txtclave;
         private System.Windows.Forms.Label campodni;
         private System.Windows.Forms.Label campocontraseña;
         private System.Windows.Forms.Button botoningreso;
