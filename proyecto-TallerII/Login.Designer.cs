@@ -113,6 +113,7 @@
             // botoningreso
             // 
             this.botoningreso.BackColor = System.Drawing.Color.Green;
+            this.botoningreso.Cursor = System.Windows.Forms.Cursors.Hand;
             this.botoningreso.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.botoningreso.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.botoningreso.Location = new System.Drawing.Point(298, 202);
