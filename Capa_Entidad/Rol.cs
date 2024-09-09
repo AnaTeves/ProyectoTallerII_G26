@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace Capa_Entidad
 {
-    public class Class1
+    public class Rol
     {
+        public int id_perfil { get; set; }
+        public string tipo { get; set; }
     }
 }
